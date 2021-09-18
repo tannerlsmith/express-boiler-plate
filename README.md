@@ -1,4 +1,5 @@
 # express-boiler-plate
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 * https://www.youtube.com/watch?v=SccSCuHhOw0 || 11:00 (routers)
 * run : ```npm init -y``` and ```npm i express```
 * ``` npm i --save-dev nodemon ``` and add ```"devStart": "nodemon server.js"``` to scripts.
