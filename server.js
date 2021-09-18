@@ -13,5 +13,12 @@ app.get('/', (req, res) => {
     // Whenever people use a get route, they will receive the response.
     res.render('index', { text: 'world' })
 })
+
+// import routes
+const userRouter = require('./routes/users');
+
+// in order to link the routes, it starts all after /users
+app.use('./users', userRouter)
+
 // to get the app to run, set up port number.
 app.listen(3000);
