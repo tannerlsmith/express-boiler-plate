@@ -25,3 +25,9 @@
 * To do this, create a routes folder. Take the ```app.get()``` routes for users.
 
 ### Advanced Routing
+* You can do dynamic routing with "/:id"
+* Always put "new" routes above dynamic routes so you can work top-to-bottom.
+* Generally, use CRUD routes; use router.route() to chain together these.
+* router.param() runs any time it matches a param you pass in. 
+
+### Middleware
